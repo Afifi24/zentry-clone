@@ -1,10 +1,12 @@
 import React from "react";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
-    <div className="text-violet-300 text-5xl font-bold ">
-      welcom to the whole world{" "}
-    </div>
+    <main className="relative w-screen overflow-x-hidden min-h-screen ">
+      <Hero />
+      <section className="min-h-screen bg-blue-600"></section>
+    </main>
   );
 };
 
